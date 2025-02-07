@@ -23,7 +23,7 @@ export default function Valentine() {
       "Mais :*(",
       "Je vais vraiment pleurer",
       "Oui, je suis un fantôme maintenant",
-      "D'accord, tu parles au fantôme de Nathan",
+      "D'accord, tu parles au fantôme de Christian",
       "S'il te plaît, ma chérie",
       ":((((",
       "S'IL TE PLAÎT, S'IL TE PLAÎT !",
