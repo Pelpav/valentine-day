@@ -6,7 +6,7 @@ export default function Countdown() {
 
     const calculateTimeLeft = () => {
         // const targetDate = new Date('2025-01-10T23:10:00');
-        const targetDate = new Date('2020-09-03T21:50:00'); // Date cible
+        const targetDate = new Date('2019-09-03T21:50:00'); // Date cible
         const now = new Date();
         const difference = now.getTime() - targetDate.getTime();
 
