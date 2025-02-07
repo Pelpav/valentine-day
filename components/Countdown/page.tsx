@@ -24,7 +24,7 @@ export default function Countdown() {
     }, []);
 
     return (
-        <div className="-mt-16 flex h-screen flex-col items-center justify-center" style={{ background: 'linear-gradient(120.3deg, #FFD6A5 31.56%, rgba(255, 255, 255, 0) 94.83%)', overflow: 'hidden' }}>
+        <div className="flex h-screen flex-col items-center justify-center" style={{ background: 'linear-gradient(120.3deg, #FFD6A5 31.56%, rgba(255, 255, 255, 0) 94.83%)', overflow: 'hidden', textAlign: 'center' }}>
             <h1 className="my-4 text-4xl text-pink-600">💖 Temps écoulé depuis qu&apos;on est ensemble : 💖</h1>
             <div className="text-2xl text-red-500">
                 {timeLeft.years > 0 && <span>{timeLeft.years} an{timeLeft.years !== 1 ? 's' : ''} 💕 </span>}

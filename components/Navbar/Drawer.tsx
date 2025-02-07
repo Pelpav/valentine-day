@@ -20,20 +20,22 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
         >
             <section
         className={
-            "w-270px max-w-lg left-0 absolute bg-white h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform " +
+            "w-270px max-w-lg left-0 absolute h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform " +
             (isOpen ? "translate-x-0" : "-translate-x-full")
         }
-    >
+        style={{ background: 'linear-gradient(120.3deg, #FFD6A5 31.56%, rgba(255, 255, 255, 0) 94.83%)' }}
+        >
  
                 <article className="relative w-270 max-w-lg pb-10 flex flex-col space-y-6 h-full">
                     <header className="p-4 flex items-center justify-between"><img
-                        className="h-12 w-40"
-                        src={"/assets/logo/logo.svg"}
+                        className="h-auto w-auto"
+                        src={"/logo.png"}
                         alt="Courses-Logo"
                         onClick={() => {
                             setIsOpen(false);
                         }}
-                    /><XMarkIcon className="block h-6 w-6" onClick={() => {
+                    />
+                        <XMarkIcon className="block h-6 w-6" onClick={() => {
                         setIsOpen(false);
                     }} />
                     </header>
